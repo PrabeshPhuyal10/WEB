@@ -1,0 +1,86 @@
+
+body#bg {
+  background-color: #000;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+
+#logo {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 200%;
+  margin: 15px;
+}
+
+
+#bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: orange;
+  padding: 20px 0;
+}
+
+#bar button {
+  width: 80px;
+  height: 80px;
+  border-radius : 20%;
+  border : 10px solid white;
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#bar button:hover {
+  background-color: chocolate;
+  color: whitesmoke;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#left_bar,
+#right_bar {
+  width: 48%;
+  height: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#left_bar {
+  background-color: darkred;
+}
+
+#right_bar {
+  background-color: blueviolet;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: skyblue;
+  padding: 20px 0;
+  margin-top: 90px;
+}
+
+
+#footer div {
+  width: 55px;
+  height: 55px;
+  background-color: yellow;
+  border-radius: 50%;
+}

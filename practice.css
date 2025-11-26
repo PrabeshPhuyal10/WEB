@@ -1,0 +1,29 @@
+header div:first-child{padding: 4%; background: blue; width: 35%; float: left;}
+header div:nth-child(2){padding: 4%; background: green; width: 35%; float: left;}
+/*header div:nth-child(3){padding: 4%; background: yellow; width: 78%; float: left;}*/*/
+.clear{clear:both;}
+nav {
+  background-color: red;
+  width:86%;
+  padding:1% 2;
+}
+nav ul li:first-child{padding:1%; background: Red; width:21%; float:Left;list-style-type: none;}
+nav ul li:nth-child(2){padding:1%; background: Red; width:21%; float:Left;list-style-type: none;}
+nav ul li:nth-child(3){padding:1%; background: Red; width:21%; float:Left;list-style-type: none;}
+nav ul li:nth-child(4){padding:1%; background: Red; width:21%; float:Left;list-style-type: none;}
+.clear{clear:both;}
+Section div:first-child{padding: 4%; background: blue; width: 35%; float: left;}
+Section div:nth-child(2){padding: 4%; background: green; width: 35%; float: left;}
+.clear{clear:both;}
+
+Footer div:first-child{padding: 4%; background: yellow; width: 78%; float: left;}
+button{
+	background-color: yellow;
+	color: black;
+	padding: 1%;
+	border: 1px solid black;
+	display: inline-block;
+	width: 45%;
+	float:left;
+
+}
