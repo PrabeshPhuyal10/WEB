@@ -1,0 +1,45 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(202, 212, 17);
+    border-radius: 5px 100px 100px;
+}
+#messi{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 6px dotted rgb(53, 157, 188);
+    animation: ani 5s linear infinite;
+    box-shadow: 10px 10px 80px rgb(55, 184, 195);
+    
+}
+@keyframes ani {
+    0%{
+        transform: rotate(360deg);
+    }
+    
+}
+body{
+    background-image:url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: fullscreen;
+    background-size: 1000PX;
+
+}
+a {
+    color: white;          /* set your preferred color */
+    text-decoration: none; /* removes underline */
+}
+
+a:visited {
+    color: white;          /* keeps same color even after visiting */
+}
+
+a:hover {
+    color: yellow;         /* color when mouse hovers */
+    text-decoration: underline; /* optional hover underline */
+}
+
+a:active {
+    color: red;            /* color when clicked */
+}
